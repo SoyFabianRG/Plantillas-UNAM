@@ -19,11 +19,11 @@ Este proyecto es una plantilla de portada para tus tareas y trabajos en equipo e
 
 ## Características
 
-Esta plantilla fue diseñada para ser usada por estudiantes de la Facultad de Ciencias de la UNAM. Si prefieres los escudos en color negro, dentro directorio [Graphics](./Graphics) los podrás encontrar: recuerda reemplazar la ruta en el comando `\includegraphics` para poderlos cambiar.
+Esta plantilla fue diseñada para ser usada por estudiantes de la Facultad de Ciencias de la UNAM. Si prefieres los escudos en color negro, dentro directorio [Graphics](../Graphics) los podrás encontrar: recuerda reemplazar la ruta en el comando `\includegraphics` para poderlos cambiar.
 
 En caso de que seas estudiante de otra facultad o institución, puedes cambiar los escudos de la parte superior por los de tu respectiva escuela siguiendo estos pasos:
 
-1. Agregar los escudos en formato jpg, png o pdf al directorio [Graphics](./Graphics).
+1. Agregar los escudos en formato jpg, png o pdf al directorio [Graphics](../Graphics).
 2. Reemplazar la ruta del archivo dentro del código en el comando `\includegraphics` y realizar los ajustes de tamaño que consideres pertinentes.
 
 ### Nota:
