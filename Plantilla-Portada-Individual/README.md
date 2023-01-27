@@ -11,7 +11,7 @@ Este proyecto es una plantilla de portada para tus tareas y trabajos individuale
 
 ## Demo
 
-<img src="../Graphics/PortadaIndividual.jpg" alt="PortadaEquipo" width="300">
+<img src="https://i.imgur.com/brH659v.jpg" width="300">
 
 ## Características
 

@@ -13,8 +13,8 @@ Este proyecto es un conjunto de plantillas hechas en LaTeX que serán de utilida
 
 <div align="center">
 
-<img src="./Graphics/PortadaIndividual.jpg" alt="PortadaIndividual" width="300">
-<img src="./Graphics/PortadaEquipo.jpg" alt="PortadaEquipo" width="300">
+<img src="https://i.imgur.com/brH659v.jpg" width="300">
+<img src="https://i.imgur.com/5uWAz5w.jpg" width="300">
 
 </div>
 

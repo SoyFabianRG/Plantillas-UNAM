@@ -6,7 +6,7 @@
 % =======================================================
 
     % **********  ESPECIFICACIONES  ***************
-    \documentclass[12pt,a4paper]{article}                           % Tipo de documento y tamaño de fuente
+    \documentclass[12pt,letterpaper]{article}                       % Tipo de documento y tamaño de fuente
     \usepackage[margin=2.54cm]{geometry}                            % Margen
     \usepackage{pdfpages}                                           % Permite "importar" archivos PDF
 
@@ -20,44 +20,42 @@
     \usepackage{graphicx}                                           % Permite colocar imágenes
     \usepackage[export]{adjustbox}                                  % Permite comparar imágenes
     \DeclareGraphicsExtensions{.pdf, .png, .jpg, .PNG, .JPG}        % Ya no es necesario especificar la extensión del archivo
+    \graphicspath{ {../Graphics/} }                                 % Lugar donde están guardadas las imágenes
 
 % =======================================================
 % ==========              PORTADA              ==========
 % =======================================================
 \begin{document}
 \begin{titlepage}
-
     \centering                                                      % Centra todo el texto
-    \includegraphics[width=0.23\textwidth]                          % Si quieres los escudos en color negro, en el directorio "Escudos"
-    {./Escudos/UNAMEscudoAzul}                                      % los podrás encontrar. De otra manera, puedes agregar los escudos
-    {\includegraphics[width=0.23\textwidth, right=12cm]             % de tu respectiva universidad y reemplazar la ruta del directorio
-    {./Escudos/CienciasEscudoAzul}\par}                             % en el comando \includegraphics para utilizarlos
 
-    \vspace{1cm}                                                    % Espacio entre párrafos
+    \includegraphics[width=0.23\textwidth]                          % Si quieres los escudos en color negro, en el directorio "Escudos"
+    {unam-logo-azul}                                                % los podrás encontrar. De otra manera, puedes agregar los escudos
+    {\includegraphics[width=0.23\textwidth, right=12cm]             % de tu respectiva universidad y reemplazar la ruta del directorio
+    {ciencias-logo-azul}\par}                                       % en el comando \includegraphics para utilizarlos
+
+    \vspace{0.25cm}                                                 % Espacio entre párrafos
     {\bfseries\LARGE Universidad Nacional Autónoma de México \par}  % No hay mejor sensación que escribir esto en tus trabajos, ¿cierto?
 
-    \vspace{1cm}                                                    % Espacio entre párrafos
+    \vspace{0.25cm}                                                 % Espacio entre párrafos
     {\scshape\Large Facultad de Ciencias \par}                      % Nombre de la Facultad
 
-    \vspace{2cm}                                                    % Espacio entre párrafos
+    \vfill                                                          % Espacio entre párrafos
     {\bfseries\Huge TÍTULO \par}                                    % El título de tu tarea. Recuerda que debe estar en mayúsculas
 
-    \vspace{1.5cm}                                                  % Espacio entre párrafos
+    \vfill                                                          % Espacio entre párrafos
     {\bfseries\Large ASIGNATURA \par}
-
-    \vspace{0.3cm}                                                  % Mini espacio
+    \vspace{0.1cm}                                                  % Mini espacio
     {\large NOMBRE DE LA ASIGNATURA \par}                           % Nombre de la materia. Recuerda que debe estar en mayúsculas
 
     \vfill                                                          % Espacio entre párrafos
     {\bfseries\Large PROFESOR/A \par}                               % Recuerda escribir PROFESORA o PROFESOR según sea el caso.
-
-    \vspace{0.3cm}                                                  % ¡Usa un lenguaje inclusivo y con perspectiva de género!
+    \vspace{0.1cm}                                                  % ¡Usa un lenguaje inclusivo y con perspectiva de género!
     {\large NOMBRE DEL PROFESOR/A \par}                             % Nombre de tu profesor/a. Recuerda que debe estar en mayúsculas
 
     \vfill                                                          % Espacio entre párrafos
     {\bfseries\Large PRESENTA \par}                                 % Nombres de los integrantes. Recuerda que deben estar en mayúsculas
-
-    \vspace{0.3cm}                                                  % De preferencia colocar los nombres en orden alfabético
+    \vspace{0.1cm}                                                  % De preferencia colocar los nombres en orden alfabético
     {\large MIEMBRO DEL EQUIPO \par}
     {\large MIEMBRO DEL EQUIPO \par}
     {\large MIEMBRO DEL EQUIPO \par}
@@ -69,6 +67,9 @@
 
     \vfill                                                          % Espacio entre párrafos
     {\Large GRUPO **** \par}                                        % Tu grupo de clase (reemplaza los asteriscos)
+
+    \vfill                                                          % Espacio entre párrafos
+    {\Large SEMESTRE **** \par}                                     % Semestre actual
 
     \vfill                                                          % Espacio entre párrafos
     {\Large \today \par}                                            % Fecha actual. También puedes agregar la fecha manualmente eliminando \today
